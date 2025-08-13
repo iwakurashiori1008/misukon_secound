@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ミクチャ　ミスコンページ</title>
+  <link rel="icon" href="https://github.com/iwakurashiori1008/misukon_secound/blob/main/favicon.png?raw=true">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ⬛︎　loading画面 -->
+<div id="loading">
+  <img src="https://github.com/iwakurashiori1008/misukon_secound/blob/main/loading.png?raw=true" alt="loading logo" id="loading-logo">
+</div>
+ 
+
+<!--　⬛︎ トップ画面　-->
+<div id="top_nest">
+  <div id="top_egg">
+    <div id="top_logo">
+      <img src="https://github.com/iwakurashiori1008/misukon_secound/blob/main/logo_white.png?raw=true" width=100%>
+    </div>
+  
+    <!--　⬛︎　メニュー　-->
+    <div id="menu">
+      <a href="#holding_event" for="menu"><p>EVENT</p></a>
+      <a href="#ranking"       for="menu"><p>RANKING</p></a>
+      <a href="#entry_nest"    for="menu"><p>ENTRY</p></a>
+      <a href="https://x.gd/liXymk" target="_blank" for="menu"><p>CALENDER</p></a>
+      <a href="#top"           for="menu"><p>TOP</p></a>
+    </div>
+  
+
+    <!--　⬛︎ ニュース　-->
+    <!-- ===========================
+      【NEWS】更新方法
+      ● 更新をした際にトップ画面にお知らせとして表示します
+      ● 下の「編集エリア」のみ修正してください
+      ● 『(全角空白)日付』<br>『お知らせ内容』
+      ● お知らせは3つのみでお願いします。
+    =========================== -->
+
+    <div id="news_nest">   <p>NEWS</p>
+      <!-- ======== ⭐️編集エリア（NEWS） ======== -->
+      <div id="news_egg">
+        　mm/dd/<br>ミスコンイベント特設ページが開設されました
+      </div>
+
+      <div id="news_egg">
+        　mm/dd<br>ミスコンイベント特設ページが開設されました
+      </div>
+
+      <div id="news_egg">
+        　mm/dd<br>ミスコンイベント特設ページが開設されました
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ⬛︎　バナースライダー-->
+<!-- ===========================
+  【EVENT】更新方法
+  ● 上段と下段に分けて、バナーをスライダー表示にします
+  ● 下の「編集エリア」のみ修正してください
+  ● <a href="イベントページURL"><img src="バナー画像URL">を入力してください
+  ● 表示数を減らすとき → <a>〜</a> をまるごと一行削除
+  ● 増やすとき → 最後の<a>〜</a>　コピー＆ペーストして入力
+  ●　できるだけ上段、下段同じコンテンツ数になるようにバランスよく増減してください
+=========================== -->
+<div id="space_top"></div>
+<div id="title">
+  <h1>EVENT</h1>
+  <div id="title_bar"></div>
+  <p>開催中のイベント</p>    
+</div>
+<div id="space_bottom"></div>
+
+<div id="slider_nest">
+  <div class="slider-wrapper">
+    <div class="slider-row" id="row1">
+      <!-- ======== ⭐️編集エリア (上段)　 ======== -->
+      <!--例)<a href="https://mixch.tv/live/event/20808"><img src="https://d2uqarpmf42qy0.cloudfront.net/torte/event/20808/banner.png?1751936721"></a>-->
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+    </div>
+  </div>
+  
+  <!--下段　バナー画像-->
+  <div class="slider-wrapper">
+    <div class="slider-row reverse" id="row2">
+      <!-- ======== ⭐️編集エリア（下段） ======== -->
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+      <a href="イベントページURL"><img src="バナーURL"></a>
+    </div>
+  </div>
+  <div id="space_bottom"></div>
+  <div id="calender">
+    <a href="https://x.gd/liXymk" for="C"><div id="C_button">スケジュールを見る</div></a>
+  </div>
+</div>
+
+
+<!--　⬛︎ ランキング　-->
+<!-- ===========================
+  【RANKING】更新方法
+  ● 1〜3位(目立つように)と4〜10位に分けて表示します
+  ● 下の「編集エリア」のみ修正してください
+  ● <a href="ライバーのミクチャURL"><img src="ライバーアイコンURL(URLの末尾をsmall→normalに変える)">を入力してください
+  ● 1〜3位はイベントのバナーURLを、4〜10位はイベント名を2行に分けて記載してください
+=========================== -->
+<div id="space_top"></div>
+<div id="title">
+  <h1>RANKING</h1>
+  <div id="title_bar"></div>
+  <p>今週のTOP10ライバー</p>    
+</div>
+<div id="space_bottom"></div>
+
+<div id="topliver">
+  <div id="no1">
+    <p for="th">1</p>
+    <!-- ======== ⭐️編集エリア（1位） ======== -->
+    <p for="name">ライバー名</p>
+    <!--アイコン-->
+    <a href="ライバーミクチャURL"><img src="ライバーアイコンURL" for="liver"></a>
+    <!--イベント-->
+    <a href="参加イベントページURL"><img src="参加イベントバナーURL" for="event"></a>
+  </div>
+
+  <div id="no2">
+    <p for="th">2</p>
+    <!-- ======== ⭐️編集エリア（2位） ======== -->
+    <p for="name">ライバー名</p>
+    <!--アイコン-->
+    <a href="ライバーミクチャURL"><img src="ライバーアイコンURL" for="liver"></a>
+    <!--イベント-->
+    <a href="参加イベントページURL"><img src="参加イベントバナーURL" for="event"></a>
+  </div>
+
+  <div id="no3">
+    <p for="th">3</p>
+    <!-- ======== ⭐️編集エリア（3位） ======== -->
+    <p for="name">ライバー名</p>
+    <!--アイコン-->
+    <a href="ライバーミクチャURL"><img src="ライバーアイコンURL" for="liver"></a>
+    <!--イベント-->
+    <a href="参加イベントページURL"><img src="参加イベントバナーURL" for="event"></a>
+  </div>
+</div>
+
+
+<!--⬇️4〜10位-->
+<div id="ranking4-10">
+  <div class="no4-10">
+    <div id="no4-10content">
+      <div id="no4-10icon">
+        <!-- ======== ⭐️編集エリア（4位） ======== -->
+        <a href="ライバーミクチャURL"><img src="ライバーアイコンURL"></a>
+      </div>
+      <div id="name4-10">ライバー名</div>
+      <a href="参加イベントページURL"><div id="no4-10button">参加<br>イベント</div></a>
+    </div>
+  </div>
+
+  <div id="space_1vw"></div>
+
+  <div class="no4-10">
+    <div id="no4-10content">
+      <div id="no4-10icon">
+        <!-- ======== ⭐️編集エリア（5位） ======== -->
+        <a href="ライバーミクチャURL"><img src="ライバーアイコンURL"></a>
+      </div>
+      <div id="name4-10">ライバー名</div>
+      <a href="参加イベントページURL"><div id="no4-10button">参加<br>イベント</div></a>
+    </div>
+  </div>
+
+  <div id="space_1vw"></div>
+
+  <div class="no4-10">
+    <div id="no4-10content">
+      <div id="no4-10icon">
+        <!-- ======== ⭐️編集エリア（6位） ======== -->
+        <a href="ライバーミクチャURL"><img src="ライバーアイコンURL"></a>
+      </div>
+      <div id="name4-10">ライバー名</div>
+      <a href="参加イベントページURL"><div id="no4-10button">参加<br>イベント</div></a>
+    </div>
+  </div>
+
+  <div id="space_1vw"></div>
+
+  <!--7位-->
+  <div class="no4-10">
+    <div id="no4-10content">
+      <div id="no4-10icon">
+        <!-- ======== ⭐️編集エリア（7位） ======== -->
+        <a href="ライバーミクチャURL"><img src="ライバーアイコンURL"></a>
+      </div>
+      <div id="name4-10">ライバー名</div>
+      <a href="参加イベントページURL"><div id="no4-10button">参加<br>イベント</div></a>
+    </div>
+  </div>
+
+  <div id="space_1vw"></div>
+
+  <!--8位-->
+  <div class="no4-10">
+    <div id="no4-10content">
+      <div id="no4-10icon">
+        <!-- ======== ⭐️編集エリア（8位） ======== -->
+        <a href="ライバーミクチャURL"><img src="ライバーアイコンURL"></a>
+      </div>
+      <div id="name4-10">ライバー名</div>
+      <a href="参加イベントページURL"><div id="no4-10button">参加<br>イベント</div></a>
+    </div>
+  </div>
+
+  <div id="space_1vw"></div>
+
+  <!--9位-->
+  <div class="no4-10">
+    <div id="no4-10content">
+      <div id="no4-10icon">
+        <!-- ======== ⭐️編集エリア（9位） ======== -->
+        <a href="ライバーミクチャURL"><img src="ライバーアイコンURL"></a>
+      </div>
+      <div id="name4-10">ライバー名</div>
+      <a href="参加イベントページURL"><div id="no4-10button">参加<br>イベント</div></a>
+    </div>
+  </div>
+
+  <div id="space_1vw"></div>
+
+  <!--10位-->
+  <div class="no4-10">
+    <div id="no4-10content">
+      <div id="no4-10icon">
+        <!-- ======== ⭐️編集エリア（10位） ======== -->
+        <a href="ライバーミクチャURL"><img src="ライバーアイコンURL"></a>
+      </div>
+      <div id="name4-10">ライバー名</div>
+      <a href="参加イベントページURL"><div id="no4-10button">参加<br>イベント</div></a>
+    </div>
+  </div>
+</div>
+
+
+<!--　⬛︎ エントリー-->
+<!-- ===========================
+  【ENTRY】更新方法
+  ● このページは『https://mixch.tv/p/1yxciflr』のおすすめイベントのバナーを一覧/ジャンル別に分けて表示しています。
+  ● 下の「編集エリア」のみ修正してください
+  ● 修正するのは「ディープリンク」と「バナーURL」のみ
+  ● 表示数を減らすとき → <a>〜</a> をまるごと一行削除
+  ● 増やすとき → 最後の<a>〜</a>　コピー＆ペーストして入力
+=========================== -->
+
+<div id="entry_nest">
+  <div id="space_top"></div>
+  <div id="title_white">
+    <h1>ENTRY</h1>
+    <div id="title_barWT"></div>
+    <p>参加イベントを探す</p>    
+  </div>
+  <div id="space_bottom"></div>
+
+  <div id="entry_title">
+    <div id="right_title">ジャンルから探す</div>
+    <div id="left_title">一覧から探す</div>
+  </div>
+
+  <div id="entry_UP">
+
+    <!-- 左タブ｜一覧から探す -->
+    <div id="left_nest">
+      <div id="left_egg">
+        <!-- ======== ⭐️編集エリア（一覧） ======== -->
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+      </div>
+    </div>
+
+    <!-- 右タブ｜ジャンルから探す -->
+    <div id="right_nest" class="tab-container">
+
+      <input type="radio" id="tab1" name="tab" checked>
+      <label for="tab1">AUDITION</label>            
+      <input type="radio" id="tab2" name="tab">
+      <label for="tab2">CONTEST</label>            
+      <input type="radio" id="tab3" name="tab">
+      <label for="tab3">RANWAY</label>
+        
+      <!-- ======== ⭐️編集エリア（AUDITION） ======== -->
+      <div class="tab-content">
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+      </div>
+  
+      <!-- ======== ⭐️編集エリア（CONTEST） ======== -->
+      <div class="tab-content">
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+      </div>
+  
+      <!-- ======== ⭐️編集エリア（RANWAY） ======== -->
+      <div class="tab-content">
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+        <a href="ディープリンク"><img src="バナーURL"></a>
+      </div>
+    </div>
+
+  </div>
+  <div id="space_bottom"></div>
+</div>
+
+<!--　⬛︎ 開催直近のイベント　-->
+<!-- ===========================
+  【NEW EVENT】更新方法
+  ● 直近で開催予定のイベントを3つ表示します
+  ● 修正するのは「ディープリンク」と「バナーURL」のみ
+  ● 表示数を減らすとき → <a>〜</a> をまるごと一行削除
+  ● 増やすとき → 最後の<a>〜</a>　コピー＆ペーストして入力
+=========================== -->
+<div id="new_nest">
+  <div id="space_top"></div>
+  <div id="title">
+    <h1>RANKING</h1>
+    <div id="title_bar"></div>
+    <p>今週のTOP10ライバー</p>    
+  </div>
+  <div id="space_bottom"></div>
+
+  <div id="new_egg">
+      <div id="new_md">
+          <div id="m"><p>m月</p></div>
+          <div id="d"><p>mm.dd〜mm.dd</p></div>
+      </div>
+      <div id="new_name"><p>イベント名</p></div>
+      <div id="new_banner"><a href="イベントページURL"><img src="イベントバナーURL" ></a></div>
+  </div>
+  <div id="new_border"></div>
+
+  <div id="new_egg">
+    <div id="new_md">
+        <div id="m"><p>m月</p></div>
+        <div id="d"><p>mm.dd〜mm.dd</p></div>
+    </div>
+    <div id="new_name"><p>イベント名</p></div>
+    <div id="new_banner"><a href="イベントページURL"><img src="イベントバナーURL" ></a></div>
+  </div>
+  <div id="new_border"></div>
+
+  <div id="new_egg">
+    <div id="new_md">
+        <div id="m"><p>m月</p></div>
+        <div id="d"><p>mm.dd〜mm.dd</p></div>
+    </div>
+    <div id="new_name"><p>イベント名</p></div>
+    <div id="new_banner"><a href="イベントページURL"><img src="イベントバナーURL" ></a></div>
+  </div>
+  <div id="new_border"></div>
+
+</div>
+
+
+<!--　⬛︎　フッター　-->
+<!--【フッター】-->
+<footer>
+  <div id="footer_nest" class="fade-line">
+    <div id="footer_egg1">
+      <div id="footer_logo">
+        <a href="https://mixch.tv/"><img src="https://github.com/iwakurashiori1008/misukonHP/blob/main/logo_white.png?raw=true" width=100%></a>
+      </div>
+
+      <div id="egg1_sns">
+        <a href="https://www.instagram.com/mix_channel/ "target="_blank"><img src="https://github.com/iwakurashiori1008/misukonHP/blob/main/Instagram_logo.png?raw=true"></a>
+        <a href="https://x.com/mixchan"target="_blank"><img src="https://github.com/iwakurashiori1008/misukonHP/blob/main/X_logo.png?raw=true"></a>
+        <a href="https://x.gd/BG2ju"target="_blank"><img src="https://github.com/iwakurashiori1008/misukonHP/blob/main/threads_logo.png?raw=true"></a>
+      </div>
+    </div>
+
+    <div id="footer_egg2" class="fade-line">
+      <a href="https://mixch.tv/p/1yxciflr" target="_blank"><div id="egg2_entrybtn">今すぐイベントにエントリーする</div></a>
+    </div>
+
+    <div id="footer_egg3" class="fade-line">
+      <a href="#top_nest">TOP　｜　トップページ</a><br>
+      <br>
+      <a href="#ranking">RANKING　｜　今週のトップ10ライバー</a><br>
+      <br>
+      <a href="#event">EVENR　｜　開催中のイベント</a><br>
+      <br>
+      <a href="#news_nest">TOPICS　｜　お知らせ</a><br>
+      <br>
+      <a href="entry_nest">NEW EVENT　｜　エントリー募集中イベント<br>
+    </div>
+  </div>
+  <div id="footer_2_nest" class="fade-line">
+    <p><a href="https://mixch.tv/help/terms.html">- 利用規約 -</a></p>
+    <p><a href="https://mixch.tv/help/privacy.html">- プライバシーポリシー -</a></p>
+    <p><a href="https://www.donuts.ne.jp/">- 運営会社 -</a></p>
+    <p><a href="https://mixch.tv/help/liver_management.html">- ライバー・マネジメント・ポリシー -</a></p>
+    <p><a href="https://mixch.tv/p/nfk6qvdb">- ライブ配信・視聴の注意事項 -</a></p>
+  </div>
+</footer>
+
+<!--⬇◤◢◤◢◤◢◤◢⚠️◤◢◤◢◤◢◤◢⬇-->
+<script>
+  //トップ画像　アニメーション
+  window.addEventListener("load", () => {
+    setTimeout(() => {
+      document.getElementById("top_nest").classList.add("show");
+    }, 800); // ローディング後0.8秒で開始
+  });
+
+  //ランキング　スクロールに合わせて順番に表示
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('ranking4-10');
+    const items = container.querySelectorAll('.no4-10');
+    let animated = false;
+
+    items.forEach(item => {
+      item.style.opacity = 0;
+      item.style.transform = 'translateY(30px)';
+      item.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+    });
+
+    function isInView(el, offset = 0.8) {
+      const rect = el.getBoundingClientRect();
+      return rect.top < window.innerHeight * offset;
+    }
+
+    function revealItems() {
+      if (animated) return;
+      if (isInView(container, 0.8)) {
+        animated = true;
+        items.forEach((item, index) => {
+          setTimeout(() => {
+            item.style.opacity = 1;
+            item.style.transform = 'translateY(0)';
+          }, index * 150);
+        });
+        window.removeEventListener('scroll', revealItems);
+      }
+    }
+
+    window.addEventListener('scroll', revealItems);
+    window.addEventListener('resize', revealItems);
+    revealItems();
+  });
+
+  //フッター
+  const footerLines = document.querySelectorAll('.fade-line');
+  
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        footerLines.forEach((el, i) => {
+          setTimeout(() => {
+            el.classList.add('visible');
+          }, i * 300); // 0.3秒ずつ遅延
+        });
+        observer.unobserve(entry.target); 
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  const footer = document.querySelector('footer');
+  observer.observe(footer);
+</script>
+<!--⬆◤◢◤◢◤◢◤◢⚠️◤◢◤◢◤◢◤◢⬆-->
+</body>
+</html>
